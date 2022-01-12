@@ -104,6 +104,18 @@ h1 {
   overflow: hidden;
 }
 
+@media (max-width: 600px), (max-height: 600px) {
+  .board{
+    width: 250px;
+    height: 250px;
+  }
+  
+  h1 {
+    line-height: 1rem;
+    font-size: 2rem;
+  }
+}  
+
 .circle {
   background: linear-gradient(90deg, #16D9E3 0%, #30C7EC 47%, #46AEF7 100%);
   position: absolute;
